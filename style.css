@@ -2,23 +2,13 @@ body{
     margin: 0;
 }
 
-header { 
-    background: red;
+header {    
     height: 55px;
     text-align: center;
 }
 
 .black{
     background: black;
-    height: 300px;
-    color: white;
-    text-align: center;
-}
-
-.blue{
-    background: blue;
-    float: left;
-    width: 50%;
 }
 
 .white{
@@ -28,19 +18,6 @@ header {
 .space{
     padding: 30px;
     height: 250px;
-
-}
-
-.green{
-    background: green;
-}
-
-.red{
-    background: red;
-}
-
-.orange{
-    background: orange;
 }
 
 footer{
@@ -52,8 +29,37 @@ footer{
     height: 250px;
 }
 
+.h-300{
+    height: 300px;
+}
+
+.w-50{
+    width: 50%;
+}
 .box{
     height: 100%;
-    width: 25%;
+    width: calc(25% - 10px);
+    float: left;
+    margin-right: 10px;
+}
+
+.text-middle{
+    display: inline;
+    vertical-align: middle;
+}
+
+.img1{
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img2{
+    background-image: url(abstract.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.float{
     float: left;
 }
