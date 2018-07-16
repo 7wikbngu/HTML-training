@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+}
+
+header { 
+    background: red;
+    height: 55px;
+    text-align: center;
+}
+
+.black{
+    background: black;
+    height: 300px;
+    color: white;
+    text-align: center;
+}
+
+.blue{
+    background: blue;
+    float: left;
+    width: 50%;
+}
+
+.white{
+    background: white;
+}
+
+.space{
+    padding: 30px;
+    height: 250px;
+
+}
+
+.green{
+    background: green;
+}
+
+.red{
+    background: red;
+}
+
+.orange{
+    background: orange;
+}
+
+footer{
+    height: 55px;
+    background: #fff;
+}
+
+.h-250{
+    height: 250px;
+}
+
+.box{
+    height: 100%;
+    width: 25%;
+    float: left;
+}
