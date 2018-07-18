@@ -1,11 +1,19 @@
 body{
     margin: 0;
 }
-html{
-    font-family: sans-serif;
-}
+
 header {    
     height: 55px;
+    background: #3a82ff;
+}
+
+.posfix{
+    position: fixed; 
+    width: 100%;
+}
+
+.font-tangerine{
+    font-family: 'Tangerine', cursive;
 }
 
 ul{
@@ -29,6 +37,9 @@ li:hover{
     background: white;
 }
 
+.text-white{
+    color: white;
+}
 .pt-15{
     padding-top: 15px;
 }
@@ -65,8 +76,12 @@ li:hover{
     border: 2px solid none;
     border-radius: 5px;
 }
-.margin-head{
+.left-margin{
     margin-left: 30px;
+}
+
+.right-margin{
+    margin-right: 20px;
 }
 
 .text-middle{
@@ -116,7 +131,7 @@ footer{
 
 .boldstyle{
     font-family: sans-serif;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .margin-box{
@@ -158,4 +173,69 @@ footer{
 .box-lines{
     line-height: 32px;
     word-spacing: 2px;
+}
+
+.font-tangerine{
+    font-family: 'Tangerine', cursive;
+}
+
+@media screen and (max-width:450px) and (min-width:50px){
+    .hide{
+        display: none;
+    }
+
+    .box{
+        height: calc(25% - 8px);
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .backgroundBox{
+        height: 500px;
+    }
+
+    .margin-box{
+        margin: 15px;
+    }
+
+    .box-head{
+        font-size: 25px;
+    }
+
+    .box-lines{
+        line-height: 20px;
+    }
+
+}
+
+@media screen and (max-width: 608px) and (min-width: 450px){
+    .box-left{
+        height: 45%;
+        width: calc(50% - 8px);
+        float: left;
+        margin: 2px;
+    }
+
+    .box-right{
+        height: 45%;
+        width: calc(50% - 8px);
+        float: right;
+        margin: 2px;
+    }
+
+    .backgroundBox{
+        height: 500px;
+    }
+
+    .margin-box{
+        margin: 10px;
+    }
+    
+    .box-head{
+        font-size: 25px;
+    }
+
+    .box-lines{
+        line-height: 32px;
+    }
 }
