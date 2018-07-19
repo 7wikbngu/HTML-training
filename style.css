@@ -2,6 +2,10 @@ body{
     margin: 0;
 }
 
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
 header {    
     height: 55px;
 }
@@ -11,8 +15,8 @@ header {
     width: 100%;
 }
 
-.font-tangerine{
-    font-family: 'Tangerine', cursive;
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
 }
 
 ul{
@@ -73,6 +77,29 @@ li:hover{
     margin-right: 30px;
 }
 
+.box-cent{
+    position: absolute;
+    width: 30%;
+    height: 200px;
+    margin-left:30%;
+    margin-top: 85px;
+    padding: 55px;
+}
+
+input[type=email]{
+    padding: 10px 0 10px 0;
+    width: 100%;
+    border: 1px solid blue;
+}
+
+textarea{ 
+    position: inherit;
+    height: 100px;;
+    width:100%;
+    resize: none;
+    border: 1px solid blue;
+}
+
 .box-border{
     border: 2px solid none;
     border-radius: 5px;
@@ -92,6 +119,10 @@ li:hover{
 
 .text-middle{
     text-align: center;
+}
+
+.vertical-align{
+    vertical-align: middle;
 }
 
 .text-left{
@@ -146,7 +177,7 @@ footer{
 }
 
 .font-intro{
-    font-size: 30px;
+    font-size: 20px;
 }
 .margin-box{
     margin: 35px;
@@ -184,13 +215,27 @@ footer{
     color: #E3F2FD;
 }
 
+.hback-blue{
+    background: rgb(97, 178, 245);
+}
 .box-lines{
     line-height: 32px;
-    word-spacing: 2px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
 }
 
-.font-tangerine{
-    font-family: 'Tangerine', cursive;
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.hide-blockhw{
+    height: 55px;
+    width: 100%; 
+    display: none;  
+}
+
+.margin-hide{
+    margin: 0;
 }
 
 @media screen and (max-width:550px) and (min-width:50px){
@@ -237,6 +282,9 @@ footer{
         margin: 2px;
     }
 
+    .font-intro{
+        font-size: 15px;
+    }
     .backgroundBox{
         height: 500px;
     }
