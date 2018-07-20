@@ -86,9 +86,12 @@ li:hover{
     padding: 55px;
 }
 
-input[type=email]{
+input[type=email], text{
     padding: 10px 0 10px 0;
     width: 100%;
+}
+
+.border-redgreen{
     border: 1px solid blue;
 }
 
@@ -97,7 +100,6 @@ textarea{
     height: 100px;;
     width:100%;
     resize: none;
-    border: 1px solid blue;
 }
 
 .box-border{
@@ -143,9 +145,10 @@ textarea{
     background-size: cover;
 }
 
-.img3{
-    height: 250px;
-    width: 45%;
+.img-logos{
+    margin-left: 180px;
+    height: 200px;
+    width: 30%;
 }
 
 .float-left{
@@ -224,6 +227,10 @@ footer{
     letter-spacing: 1px;
 }
 
+.background-red{
+    background: #B0BEC5;
+}
+
 .font-roboto{
     font-family: 'Roboto', sans-serif;
 }
@@ -247,6 +254,10 @@ footer{
         height: calc(25% - 8px);
         width: 100%;
         margin-bottom: 8px;
+    }
+
+    .font-intro{
+        font-size: 15px;
     }
 
     .backgroundBox{
